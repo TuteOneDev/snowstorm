@@ -1,20 +1,21 @@
-# Snowstorm
+# <img src="https://github.com/user-attachments/assets/1266d0b4-e5c4-451e-bae6-0fef3cfbe8a1" style="height:40px"> Snowstorm
+![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat&logo=vue.js&logoColor=white)<br>
+Custom editor for Minecraft Bedrock Edition particle files. Available as a Web App and VSCode Extension:
 
-Custom editor for Minecraft Bedrock Edition particle files. Available as a web app and VSCode Extension:
 * **Web App:** [snowstorm.app](https://snowstorm.app/)
 * **VSCode Extension:** [Snowstorm - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=JannisX11.snowstorm)
 
-
 ## Interface
-
-![Snowstorm interface screenshot](https://snowstorm.app/content/interface.png)
-
-
+![image](https://github.com/user-attachments/assets/ce94065e-b747-459d-b428-50c42a556bcf)
 ## Development
-
-1. Install node and run `npm install` to install all dependencies
-
-2. Run `npm run watch` to run the bundler and update whenever you change anything
+1. Install node and install all dependencies: 
+```
+npm install
+```
+2. Run the bundler and update whenever you change anything:
+```
+npm run watch
+```
 
 3. Open the app
 
@@ -24,4 +25,4 @@ Custom editor for Minecraft Bedrock Edition particle files. Available as a web a
 
 	#### VS Code Extension:
 
-	Press F5 to run the Extension Development Host in a new VS Code instance
+	Press `F5` to run the Extension Development Host in a new VS Code instance
